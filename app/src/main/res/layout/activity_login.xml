@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.nikhil.group22_hw09.LoginActivity">
+
+
+    <TextView
+        android:id="@+id/welcomeTripsAppTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/trips_app"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:layout_margin="5dp"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/email_str"
+        android:layout_margin="5dp"
+        android:paddingLeft="10dp"
+        android:paddingStart="10dp"
+        android:paddingRight="10dp"
+        android:background="#FFF"
+        android:id="@+id/emailEditText"
+        android:layout_below="@+id/welcomeTripsAppTextView"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/emailEditText"
+        android:layout_margin="5dp"
+        android:paddingLeft="10dp"
+        android:paddingStart="10dp"
+        android:paddingRight="10dp"
+        android:hint="@string/password_str"
+        android:background="#FFF"
+        android:id="@+id/passwordEditText"
+        android:inputType="textPassword"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:id="@+id/linearLayout"
+        android:layout_below="@+id/passwordEditText">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:background="#1e7cbe"
+            android:layout_weight="0.5"
+            android:textAllCaps="false"
+            android:textColor="#FFF"
+            android:id="@+id/loginButton"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:textAllCaps="false"
+            android:text="@string/sign_up"
+            android:background="#1e7cbe"
+            android:textColor="#FFF"
+            android:id="@+id/signUpButton"
+            android:layout_margin="5dp" />
+
+    </LinearLayout>
+
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/signInWithGoogleButton"
+        android:layout_below="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:background="#1e7cbe"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

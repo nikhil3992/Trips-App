@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/updateProfile"
+        android:title="@string/update_profile"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/trips"
+        android:title="@string/trips"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_drive_eta_black_18dp"/>
+
+    <item
+        android:id="@+id/friendRequests"
+        android:title="@string/friend_requests"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_person_black_18dp"/>
+    <item
+        android:id="@+id/logout"
+        android:title="@string/logout"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_power_settings_new_black_18dp"/>
+</menu>

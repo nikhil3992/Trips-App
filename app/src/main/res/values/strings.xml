@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Group#22_HW09</string>
+    <string name="trips_app">Welcome to Trips App</string>
+    <string name="email_str">Email</string>
+    <string name="password_str">Password</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="register">REGISTER</string>
+    <string name="my_friend">My Friend</string>
+    <string name="view_trips">View Trips</string>
+    <string name="my_friends">My Friends</string>
+    <string name="add_friends">Add Friends</string>
+    <string name="you_don_t_have_any_friends_yet">You don\'t have any friends yet : (</string>
+    <string name="select_gender">Select Gender:</string>
+    <string name="upload_photo">Upload Photo</string>
+    <string name="you_don_t_have_any_trips_yet">You don\'t have any trips yet</string>
+    <string name="add_new_trips">Add new Trips</string>
+    <string name="add_as_friend">Add as friend</string>
+    <string name="trips">Trips</string>
+    <string name="friend_requests">Friend Requests</string>
+    <string name="logout">Logout</string>
+    <string name="no_friend_requests_available">No friend requests available</string>
+    <string name="reject">Decline</string>
+    <string name="accept">Accept</string>
+    <string name="title">Title</string>
+    <string name="location">Location</string>
+    <string name="add_cover_photo">Add Cover Photo</string>
+    <string name="join_trip">Join Trip</string>
+    <string name="trip">Trip</string>
+    <string name="textMessage" />
+    <string name="full" />
+    <string name="time" />
+    <string name="chat_room">Chat Room</string>
+    <string name="no_trips">No trips available from this user</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="update">UPDATE PROFILE</string>
+    <string name="upd">Update</string>
+    <string name="update_photo">Update photo</string>
+    <string name="rem_trip">Remove Trip</string>
+    <string name="add_members">Add members</string>
+    <string name="remove_member">Remove</string>
+    <string name="add_locations">Add Locations</string>
+    <string name="delete_locations">Delete Locations</string>
+    <string name="see_round_trip">See Round Trip</string>
+    <string name="add_location">Add Location</string>
+    <string name="location_not_set">Location not set</string>
+    <string name="set_location">Set Location</string>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+    <string name="trip_has_been_disabled">Trip has been disabled</string>
+    <string name="disable_trip">Disable Trip</string>
+</resources>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_trip_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.nikhil.group22_hw09.TripDetailsActivity">
+
+
+    <ImageView
+        android:id="@+id/tripImageView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:id="@+id/tripName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/tripImageView"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/tripLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/tripName"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/tripMembersRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tripLocation"
+        android:layout_above="@+id/placePickerLayout">
+    </android.support.v7.widget.RecyclerView>
+
+    <RelativeLayout
+        android:id="@+id/placePickerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/relative">
+
+        <Button
+            android:text="@string/delete_locations"
+            android:layout_width="wrap_content"
+            android:textAllCaps="false"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:textColor="#FFF"
+            android:id="@+id/deleteLocations"
+            android:padding="3dp"
+            android:layout_margin="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/seeRoundTrip"
+            android:layout_toEndOf="@+id/seeRoundTrip" />
+
+        <Button
+            android:text="@string/add_locations"
+            android:layout_width="wrap_content"
+            android:textAllCaps="false"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:textColor="#FFF"
+            android:layout_margin="5dp"
+            android:padding="3dp"
+            android:id="@+id/addTripLocations"
+            android:layout_toLeftOf="@+id/seeRoundTrip"
+            android:layout_toStartOf="@+id/seeRoundTrip" />
+
+        <Button
+            android:text="@string/see_round_trip"
+            android:layout_width="wrap_content"
+            android:textAllCaps="false"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:textColor="#FFF"
+            android:layout_margin="5dp"
+            android:id="@+id/seeRoundTrip"
+            android:padding="3dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/tripImageView"
+        android:layout_alignEnd="@+id/tripImageView">
+
+        <Button
+            android:text="@string/disable_trip"
+            android:layout_width="wrap_content"
+            android:textAllCaps="false"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:textColor="#FFF"
+            android:padding="3dp"
+            android:id="@+id/removeTripButton"
+            android:layout_marginRight="70dp"
+            android:layout_marginEnd="70dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:text="@string/add_members"
+            android:layout_width="wrap_content"
+            android:textAllCaps="false"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:textColor="#FFF"
+            android:id="@+id/addMembersButton"
+            android:layout_marginRight="17dp"
+            android:padding="3dp"
+            android:layout_marginEnd="17dp"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/removeTripButton"
+            android:layout_toStartOf="@+id/removeTripButton" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
