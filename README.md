@@ -2,38 +2,38 @@
 An Android app that lets users plan and create trips with friends.
 
 # Login
-![](Screenshots/Login%20Screen.PNG)
+![](Screenshots/login.PNG)
 
 # Sign up
-![](Screenshots/Sign%20Up.PNG)
+![](Screenshots/signUp.PNG)
 
 # Home Page
-![](Screenshots/Main%20Screen.PNG)
+![](Screenshots/homeScreen.PNG)
 
 # Your Trips
-![](Screenshots/Your%20Trips.PNG)
+![](Screenshots/yourTrips.PNG)
 
 # Trip Details
-![](Screenshots/Trip%20Details.PNG)
+![](Screenshots/tripDetails.PNG)
 
 # Adding new Location to your trip
-![](Screenshots/Select%20new%20Location.PNG)
+![](Screenshots/addNewLocations.PNG)
 
-# Choose your new trip location
-![](Screenshots/Type%20location%20to%20select.PNG)
+# Select your new trip location
+![](Screenshots/selectLocation.PNG)
 
-# Selecting Location
-![](Screenshots/Select%20Location.PNG)
+# Choose Location
+![](Screenshots/chooseLocation.PNG)
 
 # See your trip locations on a map
-![](Screenshots/See%20round%20trip%20on%20a%20map.PNG)
+![](Screenshots/seeRoundTripOfLocations.PNG)
 
 # Add new friends
-![](Screenshots/Add%20new%20friends.PNG)
+![](Screenshots/addNewFriends.PNG)
 
 # Chat
-![](Screenshots/Chat.PNG)
+![](Screenshots/chat.PNG)
 
-# Update your details
-![](Screenshots/Update%20details.PNG)
+# Update your profile
+![](Screenshots/updateProfile.PNG)
 
